@@ -29,4 +29,3 @@ def comp(list1) :
             
 list1 =[12, 14, 56, 1]
 comp(list1)
-
