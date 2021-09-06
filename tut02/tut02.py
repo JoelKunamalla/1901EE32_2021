@@ -28,5 +28,5 @@ def comp(input) :
            
             i= i+1
         print( "score:" , c)
-input = [1,4, "a", 3, 5, "Star", 7.5]
+input = [1,4, 3, 5, 8,9,9]
 comp(input)
