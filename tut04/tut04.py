@@ -5,7 +5,6 @@ from openpyxl import load_workbook
 def output_by_subject() :
     import os
     list11=[]
-    #os.mkdir("output_by_subject")
     if(os.path.exists("output_by_subject")) : 
         pass
     else :
