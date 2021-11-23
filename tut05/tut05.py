@@ -95,9 +95,9 @@ def generate_marksheet():
                         wb.save(f"output\\{n[0]}.xlsx")
                     os.remove(f"output\\{n[0]}+{list111[0]}.csv")
                     list111.pop(0)
-            if l == False:
-                dict[n[0]]=s
-                break
+            # if l == False:
+            #     dict[n[0]]=s
+            #     break
     credits_taken={x:[]  for x in mnn}
     dictionary__={x:[] for x in mnn }
     semester_wise={x:[] for x  in mnn}
